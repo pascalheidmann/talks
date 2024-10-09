@@ -1,0 +1,8 @@
+{{ currentTime }}
+@for (row of data; track row) {
+  <div class="row">
+    <div>{{ row }}</div>
+    <div>{{ getFibonacci(row) }}</div>
+    <button>I am a button</button>
+  </div>
+}
